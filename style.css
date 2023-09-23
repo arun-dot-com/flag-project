@@ -1,0 +1,37 @@
+
+.flag{
+    height: 600px;
+    width: 900px;
+    background-color: #ff0000;
+    
+    
+}
+
+.flag > div{
+
+    height:300px;
+    width:900px;
+    background-color: navy;
+    position:absolute;
+    top:150px;
+    
+
+}
+.flag>div>div{
+    height:200px;
+    width:200px;
+    background-color: white;
+    border-radius: 50%;
+    position:relative;
+    top: 50px;
+    left:350px;
+}
+/*because of margin of the paragraph element, it is not in the exact middle of the rectangle */
+p{
+    margin:0%;
+    font-size:5rem;
+    text-align:center;
+}
+#specificflag{
+    color: aliceblue;
+}
